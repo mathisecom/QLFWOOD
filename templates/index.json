@@ -25,6 +25,32 @@
         "overlay_opacity": 30
       }
     },
+    "rich_text_R86P8W": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_E4r7p8": {
+          "type": "heading",
+          "settings": {
+            "text": "MEILLEURES VENTES",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_E4r7p8"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "featured_collection_FEqqDa": {
       "type": "featured-collection",
       "name": "Featured collection",
@@ -107,6 +133,7 @@
   },
   "order": [
     "video_R4hEmq",
+    "rich_text_R86P8W",
     "featured_collection_FEqqDa",
     "faq"
   ]
