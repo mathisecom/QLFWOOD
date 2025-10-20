@@ -24,6 +24,13 @@
             "show_taxes_notice": false
           }
         },
+        "liquid_EQJxgG": {
+          "type": "liquid",
+          "disabled": true,
+          "settings": {
+            "liquid": "<div class=\"main-product__block main-product__block-custom_liquid\">\n          <div class=\"m-product-text\">\n            <style> \n  .offer-badge {\n    display: inline-block;\n    padding: 4px 10px; /* Taille réduite */\n    font-size: 12px;  /* Texte plus petit */\n    font-weight: bold;\n    color: white;\n    background: linear-gradient(135deg, #000000, #444444);\n    border-radius: 15px; /* Arrondi adapté */\n    text-transform: uppercase;\n  }\n</style>\n\n<div class=\"offer-badge\">\n  STICKERS OFFERT</div>\n          </div>\n        \n</div>"
+          }
+        },
         "text_3CexBB": {
           "type": "text",
           "disabled": true,
@@ -97,6 +104,7 @@
       "block_order": [
         "title",
         "price",
+        "liquid_EQJxgG",
         "text_3CexBB",
         "variant_picker",
         "quantity_selector",
