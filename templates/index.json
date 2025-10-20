@@ -28,17 +28,24 @@
     "rich_text_R86P8W": {
       "type": "rich-text",
       "blocks": {
+        "subheading_maqUqq": {
+          "type": "subheading",
+          "settings": {
+            "text": "LA SÉLECTION QLF"
+          }
+        },
         "heading_E4r7p8": {
           "type": "heading",
           "settings": {
             "text": "MEILLEURES VENTES",
-            "heading_tag": "h3",
+            "heading_tag": "h2",
             "text_color": "",
             "gradient": ""
           }
         }
       },
       "block_order": [
+        "subheading_maqUqq",
         "heading_E4r7p8"
       ],
       "name": "Rich text",
