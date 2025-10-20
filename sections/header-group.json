@@ -20,10 +20,18 @@
             "text": "🎁 STICKERS OFFERT POUR CHAQUE COMMANDE !",
             "url": ""
           }
+        },
+        "message_DATW7R": {
+          "type": "message",
+          "settings": {
+            "text": "📦 LIVRAISON 72H OFFERTE À PARTIR DE 80€ D'ACHATS",
+            "url": ""
+          }
         }
       },
       "block_order": [
-        "message"
+        "message",
+        "message_DATW7R"
       ],
       "settings": {
         "enable_sticky": false,
