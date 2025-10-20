@@ -71,7 +71,7 @@
         "collapsible_text_EQcWkC": {
           "type": "collapsible_text",
           "settings": {
-            "icon": "none",
+            "icon": "picto-box",
             "icon_width": 20,
             "title": "Informations sur la livraison",
             "content": "<p>Nos commandes sont expédiées et livrée dans un délai de <strong>3 à 4 jours</strong> ouvrables avec LaPoste Colissimo.</p>",
@@ -81,7 +81,7 @@
         "collapsible_text_xQXt4d": {
           "type": "collapsible_text",
           "settings": {
-            "icon": "none",
+            "icon": "picto-recycle",
             "icon_width": 20,
             "title": "Lavage & Entretien",
             "content": "<p><strong>- </strong>Lavage 30°<br/><strong>- </strong>Pas de sèche-linge<br/><strong>- </strong>Repassage à l'envers</p>",
