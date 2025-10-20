@@ -69,7 +69,7 @@
         "show_progress_bar": false,
         "products_count": 10,
         "products_per_row_mobile": "2",
-        "products_per_row_desktop": 3,
+        "products_per_row_desktop": 2,
         "subheading": "",
         "title": "",
         "content": "",
