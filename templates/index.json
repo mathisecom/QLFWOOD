@@ -84,6 +84,39 @@
         "product_card_text_color": ""
       }
     },
+    "shop_the_look_GNnnJC": {
+      "type": "shop-the-look",
+      "blocks": {
+        "product_Xfc9yC": {
+          "type": "product",
+          "settings": {
+            "product": "t-shirt-oversize-le-monde-ou-rien-qlfwood™",
+            "horizontal_position": 52,
+            "vertical_position": 25
+          }
+        }
+      },
+      "block_order": [
+        "product_Xfc9yC"
+      ],
+      "name": "Shop the look",
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": "",
+        "product_card_mobile_background": "",
+        "product_card_mobile_text_color": "",
+        "background_dots": "#FFF"
+      }
+    },
     "rich_text_3xeUA8": {
       "type": "rich-text",
       "blocks": {
@@ -258,6 +291,7 @@
     "video_R4hEmq",
     "rich_text_R86P8W",
     "featured_collection_FEqqDa",
+    "shop_the_look_GNnnJC",
     "rich_text_3xeUA8",
     "testimonials_N68hgq",
     "faq"
