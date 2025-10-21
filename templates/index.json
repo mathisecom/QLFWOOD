@@ -250,7 +250,7 @@
           "type": "item",
           "settings": {
             "title": "Comment Suivre mon colis ?",
-            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+            "content": "<p>Pour suivre votre colis, il vous suffit de vous rendre dans le menu de notre site, puis de cliquer sur <strong>« Suivre votre commande »</strong>. Vous pourrez alors entrer votre numéro de commande pour connaître l’état de votre livraison en temps réel.</p>"
           }
         },
         "166442457738b23caf-2": {
