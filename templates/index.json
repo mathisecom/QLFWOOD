@@ -16,13 +16,13 @@
         "full_width": true,
         "allow_transparent_header": true,
         "autoplay": true,
-        "video_size": "sm",
+        "video_size": "md",
         "video": "shopify://files/videos/copy_B78ED96A-107B-47B5-B389-04967166214F 2.MOV",
         "mobile_video": "shopify://files/videos/copy_B78ED96A-107B-47B5-B389-04967166214F 2.MOV",
         "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "overlay_opacity": 10
       }
     },
     "rich_text_R86P8W": {
