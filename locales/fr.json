@@ -348,7 +348,7 @@
       "remove_with_title": "Supprimer {{ title }}"
     },
     "free_shipping_bar": {
-      "limit_unreached_html": "Dépensez {{ remaining_amount }} de plus pour bénéficier des frais de livraison offerts.",
+      "limit_unreached_html": "Ajoutez {{ remaining_amount }} et profitez de la livraison gratuite !",
       "limit_reached_html": "Frais de livraison offerts !"
     },
     "shipping_estimator": {
