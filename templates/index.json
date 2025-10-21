@@ -92,7 +92,7 @@
           "settings": {
             "product": "t-shirt-oversize-le-monde-ou-rien-qlfwood™",
             "horizontal_position": 52,
-            "vertical_position": 25
+            "vertical_position": 79
           }
         }
       },
@@ -103,6 +103,7 @@
       "settings": {
         "full_width": true,
         "stack_mobile": true,
+        "image": "shopify://shop_images/Corrige_la_posture_en_douceur_1.jpg",
         "title": "",
         "content": "",
         "background": "",
