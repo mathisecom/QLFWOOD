@@ -84,6 +84,39 @@
         "product_card_text_color": ""
       }
     },
+    "rich_text_3xeUA8": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_XT4RkN": {
+          "type": "subheading",
+          "settings": {
+            "text": "+4,700 QLF ONT PASSÉ COMMANDE !"
+          }
+        },
+        "heading_jx3thc": {
+          "type": "heading",
+          "settings": {
+            "text": "CE QUE DISENT NOS CLIENTS",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_XT4RkN",
+        "heading_jx3thc"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "testimonials_N68hgq": {
       "type": "testimonials",
       "blocks": {
@@ -201,6 +234,7 @@
     "video_R4hEmq",
     "rich_text_R86P8W",
     "featured_collection_FEqqDa",
+    "rich_text_3xeUA8",
     "testimonials_N68hgq",
     "faq"
   ]
