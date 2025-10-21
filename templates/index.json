@@ -69,7 +69,7 @@
         "show_progress_bar": false,
         "products_count": 10,
         "products_per_row_mobile": "2",
-        "products_per_row_desktop": 2,
+        "products_per_row_desktop": 5,
         "subheading": "",
         "title": "",
         "content": "",
@@ -115,7 +115,7 @@
         "product_card_text_color": "",
         "product_card_mobile_background": "",
         "product_card_mobile_text_color": "",
-        "background_dots": "#FFF"
+        "background_dots": "#ffffff"
       }
     },
     "rich_text_3xeUA8": {
