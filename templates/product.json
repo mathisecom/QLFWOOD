@@ -133,15 +133,124 @@
         "input_text_color": ""
       }
     },
-    "rich_text_JGmggi": {
+    "rich_text_Q6ebUD": {
       "type": "rich-text",
       "blocks": {
-        "subheading_BNRNET": {
+        "subheading_6mDgRy": {
           "type": "subheading",
           "settings": {
             "text": "+4,700 QLF ONT PASSÉ COMMANDE !"
           }
+        }
+      },
+      "block_order": [
+        "subheading_6mDgRy"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_link_blocks_9gV6RB": {
+      "type": "image-link-blocks",
+      "blocks": {
+        "item_6a3aPG": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Design_sans_titre_-_2024-10-18T132632.329.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
         },
+        "item_RxJCtH": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Design_sans_titre_-_2024-10-18T132715.657.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_HrtjKy": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Design_sans_titre_-_2024-10-18T134626.663.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_LKzDzL": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Design_sans_titre_-_2024-10-18T133844.699.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_RACymK": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Design_sans_titre_-_2024-10-18T134328.715.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "item_6a3aPG",
+        "item_RxJCtH",
+        "item_HrtjKy",
+        "item_LKzDzL",
+        "item_RACymK"
+      ],
+      "name": "Image link blocks",
+      "settings": {
+        "full_width": false,
+        "block_size": "small",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "rich_text_JGmggi": {
+      "type": "rich-text",
+      "blocks": {
         "heading_VHwDAx": {
           "type": "heading",
           "settings": {
@@ -153,7 +262,6 @@
         }
       },
       "block_order": [
-        "subheading_BNRNET",
         "heading_VHwDAx"
       ],
       "name": "Rich text",
@@ -263,6 +371,8 @@
   },
   "order": [
     "main",
+    "rich_text_Q6ebUD",
+    "image_link_blocks_9gV6RB",
     "rich_text_JGmggi",
     "testimonials_NBAYRX",
     "related-products"
