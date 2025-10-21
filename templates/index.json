@@ -159,10 +159,10 @@
           "settings": {
             "round_avatar": true,
             "show_rating": true,
-            "rating": 4,
-            "author": "John S.",
-            "title": "Testimonial 1",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+            "rating": 5,
+            "author": "Nassim T.",
+            "title": "J’adore !",
+            "content": "<p>Franchement, qualité top et le visuel est lourd. On ressent vraiment l’univers de PNL, j’adore !</p>"
           }
         },
         "testimonial_h6Bpmt": {
@@ -171,9 +171,9 @@
             "round_avatar": true,
             "show_rating": true,
             "rating": 5,
-            "author": "Mary U.",
-            "title": "Testimonial 2",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+            "author": "Clara M.",
+            "title": "Enfin un vrai merch PNL !",
+            "content": "<p>Ça faisait longtemps que je cherchais un tee-shirt stylé sur PNL, celui-ci est juste magnifique.</p>"
           }
         },
         "testimonial_H4EWpK": {
@@ -181,10 +181,10 @@
           "settings": {
             "round_avatar": true,
             "show_rating": true,
-            "rating": 4,
-            "author": "Joshua A.",
-            "title": "Testimonial 3",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+            "rating": 5,
+            "author": "Mathéo G.",
+            "title": "Ambiance PNL à fond.",
+            "content": "<p>Le style, les couleurs, tout est dans le mood PNL. Je le porte tout le temps !</p>"
           }
         },
         "testimonial_GPHj6a": {
@@ -193,13 +193,14 @@
             "round_avatar": true,
             "show_rating": true,
             "rating": 4,
-            "author": "Joshua A.",
-            "title": "Testimonial 3",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+            "author": "Sofia L.",
+            "title": "Qualité de fou !",
+            "content": "<p>Le tissu est super agréable et l’impression nickel. Validée par l'une de leur plus grand fan :)</p>"
           }
         },
         "testimonial_fHpcUA": {
           "type": "testimonial",
+          "disabled": true,
           "settings": {
             "round_avatar": true,
             "show_rating": true,
