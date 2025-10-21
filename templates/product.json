@@ -133,6 +133,39 @@
         "input_text_color": ""
       }
     },
+    "rich_text_JGmggi": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_BNRNET": {
+          "type": "subheading",
+          "settings": {
+            "text": "+4,700 QLF ONT PASSÉ COMMANDE !"
+          }
+        },
+        "heading_VHwDAx": {
+          "type": "heading",
+          "settings": {
+            "text": "CE QUE DISENT NOS CLIENTS",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_BNRNET",
+        "heading_VHwDAx"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "testimonials_NBAYRX": {
       "type": "testimonials",
       "blocks": {
@@ -230,6 +263,7 @@
   },
   "order": [
     "main",
+    "rich_text_JGmggi",
     "testimonials_NBAYRX",
     "related-products"
   ]
