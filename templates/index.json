@@ -25,6 +25,32 @@
         "overlay_opacity": 10
       }
     },
+    "rich_text_43d8wa": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_KDgQBb": {
+          "type": "heading",
+          "settings": {
+            "text": "+4,700 QLF ONT PASSÉ COMMANDE !",
+            "heading_tag": "h6",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_KDgQBb"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "image_link_blocks_NkX9Xq": {
       "type": "image-link-blocks",
       "blocks": {
@@ -411,6 +437,7 @@
   },
   "order": [
     "video_R4hEmq",
+    "rich_text_43d8wa",
     "image_link_blocks_NkX9Xq",
     "rich_text_R86P8W",
     "featured_collection_FEqqDa",
