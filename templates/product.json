@@ -48,6 +48,10 @@
             "size_chart_page": ""
           }
         },
+        "bf_size_charts_block_J748fE": {
+          "type": "shopify://apps/bf-size-charts/blocks/block/47ee4f2e-eb5e-41af-9beb-e2786646bf2a",
+          "settings": {}
+        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {}
@@ -107,6 +111,7 @@
         "liquid_EQJxgG",
         "text_3CexBB",
         "variant_picker",
+        "bf_size_charts_block_J748fE",
         "quantity_selector",
         "liquid_xgmDkm",
         "buy_buttons",
