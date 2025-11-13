@@ -36,7 +36,7 @@
     "text_font_size_mobile": 13,
     "text_font_size_desktop": 13,
     "heading_apparition": "split_fade",
-    "color_swatch_config": "Noir: #242223\nBlanc: #F8F8F8\nGris: #ADADAD",
+    "color_swatch_config": "Noir: #242223\nBlanc: #F8F8F8\nGris: #ADADAD\nArgent: #F3F3F3",
     "show_discount": false,
     "discount_mode": "percentage",
     "product_color_display": "swatch",
