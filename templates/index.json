@@ -264,6 +264,58 @@
         "background_dots": "#ffffff"
       }
     },
+    "rich_text_PjpraE": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_we8b9g": {
+          "type": "heading",
+          "settings": {
+            "text": "NOS COLLIERS 100% QLF",
+            "heading_tag": "h4",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_we8b9g"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "featured_collection_LbPaqW": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "collection": "nos-colliers",
+        "products": [],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 2,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 2,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
     "rich_text_3xeUA8": {
       "type": "rich-text",
       "blocks": {
@@ -442,6 +494,8 @@
     "rich_text_R86P8W",
     "featured_collection_FEqqDa",
     "shop_the_look_GNnnJC",
+    "rich_text_PjpraE",
+    "featured_collection_LbPaqW",
     "rich_text_3xeUA8",
     "testimonials_N68hgq",
     "faq"
