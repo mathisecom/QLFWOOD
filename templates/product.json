@@ -109,6 +109,14 @@
             "content": "<p>Pour les commandes passées, vous disposez de 14 jours (à compter de la date de réception de l'article) pour changer d'avis.</p>",
             "page": ""
           }
+        },
+        "description_MakqGr": {
+          "type": "description",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "collapse_content": false
+          }
         }
       },
       "block_order": [
@@ -124,7 +132,8 @@
         "liquid_HTQiHF",
         "collapsible_text_EQcWkC",
         "collapsible_text_xQXt4d",
-        "collapsible_text_eMAzie"
+        "collapsible_text_eMAzie",
+        "description_MakqGr"
       ],
       "settings": {
         "full_width": true,
