@@ -96,6 +96,20 @@
             "image": "shopify://shop_images/Design_sans_titre_-_2024-10-18T133744.689.jpg",
             "url": ""
           }
+        },
+        "image_hfNghy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Design_sans_titre_-_2024-10-18T134506.692.jpg",
+            "url": ""
+          }
+        },
+        "image_exig8a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Design_sans_titre_-_2024-10-18T134328.715.jpg",
+            "url": ""
+          }
         }
       },
       "block_order": [
@@ -104,7 +118,9 @@
         "image_xceb6A",
         "image_7WxbeR",
         "image_FxMjRB",
-        "image_qnKXYR"
+        "image_qnKXYR",
+        "image_hfNghy",
+        "image_exig8a"
       ],
       "name": "SS - Scrolling images",
       "settings": {
@@ -114,15 +130,15 @@
         "heading_size": 20,
         "heading_height": 130,
         "heading_align": "center",
-        "slider_speed": 13,
+        "slider_speed": 20,
         "slider_gap": 10,
         "slider_gap_mobile": 10,
         "slider_mt": 50,
         "slider_direction": "left",
         "pause_hover": false,
-        "image_width_desktop": 300,
+        "image_width_desktop": 250,
         "image_width_mobile": 120,
-        "image_height_desktop": 400,
+        "image_height_desktop": 260,
         "image_height_mobile": 170,
         "image_radius": 10,
         "use_content": false,
