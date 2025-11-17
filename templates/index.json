@@ -280,6 +280,7 @@
       "block_order": [
         "heading_we8b9g"
       ],
+      "disabled": true,
       "name": "Rich text",
       "settings": {
         "full_width": true,
@@ -292,6 +293,7 @@
     },
     "featured_collection_LbPaqW": {
       "type": "featured-collection",
+      "disabled": true,
       "name": "Featured collection",
       "settings": {
         "collection": "nos-colliers",
