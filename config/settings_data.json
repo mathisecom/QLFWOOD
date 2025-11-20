@@ -48,6 +48,7 @@
     "cart_free_shipping_threshold": "80",
     "social_instagram": "https://www.instagram.com/qlfwood/",
     "social_tiktok": "https://www.tiktok.com/@qlfwood?lang=fr",
+    "favicon": "shopify://shop_images/Titre_32.png",
     "checkout_accent_color": "#f0c417",
     "checkout_button_color": "#1a1a1a",
     "content_for_index": [],
