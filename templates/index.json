@@ -15,7 +15,8 @@
         "image_aDfmW8": {
           "type": "image",
           "settings": {
-            "mobile_image": "shopify://shop_images/BANNER_MOBILE_10.jpg",
+            "image": "shopify://shop_images/PC_QLFWOOD.jpg",
+            "mobile_image": "shopify://shop_images/BANNER_MOBILE_10_c25760a6-59f4-4257-a21b-8127589cea64.jpg",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
