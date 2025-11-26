@@ -41,15 +41,21 @@
         "offer_JQd4hr": {
           "type": "offer",
           "settings": {
-            "text_alignment": "center",
+            "text_alignment": "start",
             "icon_position": "aligned",
             "icon": "picto-coupon",
             "custom_icon": "shopify://shop_images/Les_Plaines.png",
-            "icon_width": 100,
+            "icon_width": 68,
             "title": "🎁 OFFRE SPÉCIAL NOËL",
             "content": "<p><strong>PLANCHE DE 11 STICKERS EXCLUSIVE OFFERTE !</strong></p>",
             "background": "#f2f2f2",
             "text_color": "#1a1a1a"
+          }
+        },
+        "liquid_33MKwL": {
+          "type": "liquid",
+          "settings": {
+            "liquid": ""
           }
         },
         "variant_picker": {
@@ -140,6 +146,7 @@
         "liquid_EQJxgG",
         "text_3CexBB",
         "offer_JQd4hr",
+        "liquid_33MKwL",
         "variant_picker",
         "bf_size_charts_block_J748fE",
         "quantity_selector",
