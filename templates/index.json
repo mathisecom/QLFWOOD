@@ -16,7 +16,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/PC_QLFWOOD.jpg",
-            "mobile_image": "shopify://shop_images/BANNER_MOBILE_10_c25760a6-59f4-4257-a21b-8127589cea64.jpg",
+            "mobile_image": "shopify://shop_images/BANNER_MOBILE_11.jpg",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -48,7 +48,7 @@
         "transition_type": "fade_with_text",
         "autoplay": false,
         "cycle_speed": 6,
-        "background": "#F2F2F2",
+        "background": "#f2f2f2",
         "background_gradient": ""
       }
     },
