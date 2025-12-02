@@ -85,7 +85,6 @@
       "block_order": [
         "heading_KDgQBb"
       ],
-      "disabled": true,
       "name": "Rich text",
       "settings": {
         "full_width": true,
@@ -94,6 +93,114 @@
         "background": "",
         "background_gradient": "",
         "text_color": ""
+      }
+    },
+    "ss_scrolling_logo_cloud_5_z4EpcM": {
+      "type": "ss-scrolling-logo-cloud-5",
+      "blocks": {
+        "image_yQRMKM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Design_sans_titre_8.jpg",
+            "url": ""
+          }
+        },
+        "image_aeC7jG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Design_sans_titre_9.jpg",
+            "url": ""
+          }
+        },
+        "image_gmEjap": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Design_sans_titre_-_2024-10-18T132715.657_1.avif",
+            "url": ""
+          }
+        },
+        "image_DJwcep": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Design_sans_titre_-_2024-10-18T132632.329.avif",
+            "url": ""
+          }
+        },
+        "image_8w9bmq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Design_sans_titre_-_2024-10-18T133744.689.avif",
+            "url": ""
+          }
+        },
+        "image_GyMPBX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Design_sans_titre_-_2024-10-18T134328.715.avif",
+            "url": ""
+          }
+        },
+        "image_aGjPyb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Design_sans_titre_-_2024-10-18T133844.699.avif",
+            "url": ""
+          }
+        },
+        "image_dcmpFw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Design_sans_titre_-_2024-10-18T134506.692.avif",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_yQRMKM",
+        "image_aeC7jG",
+        "image_gmEjap",
+        "image_DJwcep",
+        "image_8w9bmq",
+        "image_GyMPBX",
+        "image_aGjPyb",
+        "image_dcmpFw"
+      ],
+      "name": "SS - Scrolling logo cloud #5",
+      "settings": {
+        "layout_radius": 30,
+        "layout_border_thickness": 0,
+        "heading": "",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 18,
+        "heading_size_mobile": 10,
+        "heading_height": 130,
+        "scrolling_velocity": 16,
+        "scrolling_velocity_mobile": 26,
+        "scrolling_direction": "left",
+        "pause_hover": false,
+        "scrolling_gap": 48,
+        "scrolling_gap_mobile": 18,
+        "card_width_desktop": 210,
+        "card_width_mobile": 140,
+        "heading_color": "#121212",
+        "layout_bg_color": "#FFFFFF",
+        "layout_border_color": "#121212",
+        "background_color": "#FFFFFF",
+        "border_color": "#121212",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 0,
+        "full_width": false,
+        "content_width": 1200,
+        "border_thickness": 0,
+        "section_radius": 0,
+        "lazy": true
       }
     },
     "ss_scrolling_images_V6zXt8": {
@@ -166,6 +273,7 @@
         "image_hfNghy",
         "image_exig8a"
       ],
+      "disabled": true,
       "name": "SS - Scrolling images",
       "settings": {
         "heading": "<p><strong>+4,700 QLF ONT PASSÉ COMMANDE !</strong></p>",
@@ -181,7 +289,7 @@
         "slider_direction": "left",
         "pause_hover": false,
         "image_width_desktop": 250,
-        "image_width_mobile": 150,
+        "image_width_mobile": 140,
         "image_height_desktop": 260,
         "image_height_mobile": 170,
         "image_radius": 10,
@@ -663,6 +771,7 @@
     "slideshow_pPBVGz",
     "video_R4hEmq",
     "rich_text_43d8wa",
+    "ss_scrolling_logo_cloud_5_z4EpcM",
     "ss_scrolling_images_V6zXt8",
     "image_link_blocks_NkX9Xq",
     "rich_text_R86P8W",
