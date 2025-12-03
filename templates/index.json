@@ -69,6 +69,19 @@
         "overlay_opacity": 10
       }
     },
+    "custom_liquid_pbzaAX": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div id='ss-product-videos'></div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "avisvideo_73kQU8": {
       "type": "avisvideo",
       "blocks": {
@@ -139,7 +152,7 @@
       "settings": {
         "videos_position": "above_description",
         "use_metafield": false,
-        "heading": "<h2>WHAT OUR FELLOWS SAY</h2>",
+        "heading": "<h3>NOS VIDÉOS QLFWOOD</h3>",
         "heading_custom": false,
         "heading_font": "josefin_sans_n4",
         "heading_size": 18,
@@ -147,9 +160,9 @@
         "heading_height": 130,
         "heading_align": "center",
         "heading_align_mobile": "center",
-        "slider_view": 3,
-        "slider_view_mobile": 3,
-        "slider_gap": 16,
+        "slider_view": 4,
+        "slider_view_mobile": 4,
+        "slider_gap": 32,
         "slider_gap_mobile": 16,
         "slider_mt": 20,
         "card_radius": 10,
@@ -240,8 +253,8 @@
         "border_color": "#000000",
         "margin_top": 0,
         "margin_bottom": 0,
-        "padding_top": 20,
-        "padding_bottom": 20,
+        "padding_top": 0,
+        "padding_bottom": 0,
         "padding_horizontal": 0,
         "padding_horizontal_mobile": 0,
         "border_thickness": 0,
@@ -949,6 +962,7 @@
   "order": [
     "slideshow_pPBVGz",
     "video_R4hEmq",
+    "custom_liquid_pbzaAX",
     "avisvideo_73kQU8",
     "rich_text_43d8wa",
     "ss_scrolling_logo_cloud_5_z4EpcM",
