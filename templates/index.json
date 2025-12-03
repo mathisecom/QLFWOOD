@@ -189,7 +189,7 @@
         "icon_border_thickness": 1,
         "icon_position_mobile": "bottom_left",
         "icon_position": "bottom_left",
-        "hide_icon": false,
+        "hide_icon": true,
         "arrow_size": 35,
         "arrow_size_mobile": 35,
         "arrow_radius": 5,
