@@ -176,6 +176,19 @@
         "input_text_color": ""
       }
     },
+    "custom_liquid_y8MayN": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div id='ss-product-videos'></div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "rich_text_Q6ebUD": {
       "type": "rich-text",
       "blocks": {
@@ -286,9 +299,9 @@
         "heading_size": 20,
         "heading_height": 130,
         "heading_align": "center",
-        "slider_speed": 16,
+        "slider_speed": 22,
         "slider_gap": 26,
-        "slider_gap_mobile": 20,
+        "slider_gap_mobile": 24,
         "slider_mt": 50,
         "slider_direction": "left",
         "pause_hover": false,
@@ -547,6 +560,7 @@
   },
   "order": [
     "main",
+    "custom_liquid_y8MayN",
     "rich_text_Q6ebUD",
     "ss_scrolling_images_JxjhRx",
     "image_link_blocks_9gV6RB",
