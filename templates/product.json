@@ -569,6 +569,15 @@
             "modal_text": ""
           }
         },
+        "video_aUtwka": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/ssstik.io_@qlfwood_1764719941535.mp4",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "modal_heading": "",
+            "modal_text": ""
+          }
+        },
         "video_BFGUHp": {
           "type": "video",
           "settings": {
@@ -604,24 +613,15 @@
             "modal_heading": "",
             "modal_text": ""
           }
-        },
-        "video_aUtwka": {
-          "type": "video",
-          "settings": {
-            "video": "shopify://files/videos/ssstik.io_@qlfwood_1764719941535.mp4",
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "modal_heading": "",
-            "modal_text": ""
-          }
         }
       },
       "block_order": [
         "video_kPfBdE",
+        "video_aUtwka",
         "video_BFGUHp",
         "video_FgyqCd",
         "video_fn8KfU",
-        "video_CVjbWA",
-        "video_aUtwka"
+        "video_CVjbWA"
       ],
       "name": "Customify - Product Videos",
       "settings": {
