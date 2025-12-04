@@ -530,7 +530,6 @@
         "subheading_tgkKby",
         "heading_NY3Dze"
       ],
-      "disabled": true,
       "name": "Rich text",
       "settings": {
         "full_width": true,
@@ -543,10 +542,9 @@
     },
     "featured_collection_aDUdgK": {
       "type": "featured-collection",
-      "disabled": true,
       "name": "Featured collection",
       "settings": {
-        "collection": "",
+        "collection": "nouveautes",
         "products": [],
         "full_width": true,
         "stack_products": true,
