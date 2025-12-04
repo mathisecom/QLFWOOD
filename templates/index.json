@@ -507,6 +507,67 @@
         "product_card_text_color": ""
       }
     },
+    "rich_text_g4jke4": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_tgkKby": {
+          "type": "subheading",
+          "settings": {
+            "text": "NOUVELLE COLLECTION"
+          }
+        },
+        "heading_NY3Dze": {
+          "type": "heading",
+          "settings": {
+            "text": "NOUVEAUTÉS",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_tgkKby",
+        "heading_NY3Dze"
+      ],
+      "disabled": true,
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "featured_collection_aDUdgK": {
+      "type": "featured-collection",
+      "disabled": true,
+      "name": "Featured collection",
+      "settings": {
+        "collection": "",
+        "products": [],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 16,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
     "custom_liquid_pbzaAX": {
       "type": "custom-liquid",
       "name": "Custom Liquid",
@@ -968,6 +1029,8 @@
     "image_link_blocks_NkX9Xq",
     "rich_text_R86P8W",
     "featured_collection_FEqqDa",
+    "rich_text_g4jke4",
+    "featured_collection_aDUdgK",
     "custom_liquid_pbzaAX",
     "shop_the_look_GNnnJC",
     "rich_text_PjpraE",
