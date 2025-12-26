@@ -460,8 +460,8 @@
         "heading_E4r7p8": {
           "type": "heading",
           "settings": {
-            "text": "SOLDES DE NOËL",
-            "heading_tag": "h1",
+            "text": "MEILLEURES VENTES",
+            "heading_tag": "h3",
             "text_color": "",
             "gradient": ""
           }
