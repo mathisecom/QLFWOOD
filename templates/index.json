@@ -38,6 +38,7 @@
       "block_order": [
         "image_aDfmW8"
       ],
+      "disabled": true,
       "name": "Slideshow",
       "settings": {
         "full_width": true,
@@ -54,7 +55,6 @@
     },
     "video_R4hEmq": {
       "type": "video",
-      "disabled": true,
       "name": "Video",
       "settings": {
         "full_width": true,

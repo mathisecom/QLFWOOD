@@ -16,6 +16,7 @@
       "blocks": {
         "message_9rz9yj": {
           "type": "message",
+          "disabled": true,
           "settings": {
             "text": "🎁 SOLDES DE NOËL : JUSQU'À -30% DE RÉDUCTION + PLANCHE DE STICKERS OFFERT !",
             "url": ""
@@ -31,9 +32,8 @@
         },
         "message": {
           "type": "message",
-          "disabled": true,
           "settings": {
-            "text": "🎁 STICKERS OFFERT POUR CHAQUE COMMANDE !",
+            "text": "🎁  STICKERS OFFERT POUR CHAQUE COMMANDE !",
             "url": ""
           }
         },
