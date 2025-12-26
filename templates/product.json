@@ -33,13 +33,13 @@
         },
         "text_3CexBB": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "text": "<p><strong>🎁 Stickers Offert pour chaque commande</strong></p>"
+            "text": "<p><strong>🎁 Stickers Offert Pour Chaque Commande !</strong></p>"
           }
         },
         "offer_JQd4hr": {
           "type": "offer",
+          "disabled": true,
           "settings": {
             "text_alignment": "start",
             "icon_position": "aligned",
