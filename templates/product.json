@@ -100,7 +100,7 @@
             "icon": "picto-box",
             "icon_width": 20,
             "title": "Livraison & Retours",
-            "content": "<p><strong>Livraison</strong></p><p>Nos commandes sont expédiées et livrée dans un délai de <strong>3 à 4 jours</strong> ouvrables avec LaPoste Colissimo.</p><p><strong>Retour</strong></p><p>Les retours sont possibles pendant 14 jours après la réception. Si la demande de remboursement est validée, tu recevras ton argent entre 5 à 10 jours ouvrés (géré par le processeur de paiement). Les frais de livraisons engendrés pour le retour sont à notre charge seulement s'il s'agit d'un défaut du colis/produits nécessitant le SAV.</p>",
+            "content": "<h3>Livraison</h3><p>Nos commandes sont expédiées et livrées sous <strong>2 à 3 jours ouvrables</strong> via <strong>La Poste Colissimo</strong>.<br/><br/>Nous proposons également la livraison via <strong>Mondial Relay</strong>, avec un délai estimé de <strong>3 à 5 jours ouvrables</strong>.</p><h3>Retour</h3><p>Les retours sont possibles pendant <strong>14 jours</strong> après la réception de la commande.<br/><br/>Si la demande de remboursement est validée, tu recevras ton remboursement sous <strong>5 à 10 jours ouvrés</strong> (délai géré par le processeur de paiement).</p><p>Les <strong>frais de retour</strong> sont pris en charge uniquement en cas de <strong>défaut du colis ou du produit nécessitant une prise en charge SAV</strong>.</p>",
             "page": ""
           }
         },
