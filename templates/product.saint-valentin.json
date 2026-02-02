@@ -551,22 +551,22 @@
         "item_raDVTt": {
           "type": "item",
           "settings": {
-            "title": "Do you ship overseas?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+            "title": "Expédiez-vous à l'étranger ?",
+            "content": "<p>Oui, nous expédions partout dans le monde. Des frais d'expédition s'appliqueront et seront ajoutés à la caisse. </p>"
           }
         },
         "item_djWwKd": {
           "type": "item",
           "settings": {
-            "title": "How long will it take to get my orders?",
-            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+            "title": "Comment Suivre mon colis ?",
+            "content": "<p>Pour suivre votre colis, il vous suffit de vous rendre dans le menu de notre site, puis de cliquer sur <strong>« Suivre votre commande »</strong>. Vous pourrez alors entrer votre numéro de commande pour connaître l’état de votre livraison en temps réel.</p>"
           }
         },
         "item_HiTzY6": {
           "type": "item",
           "settings": {
-            "title": "Any question?",
-            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+            "title": "Quel est le temps de livraison ?",
+            "content": "<p>Nos commandes sont expédiées et livrées sous <strong>2 à 3 jours ouvrables</strong> via <strong>La Poste Colissimo</strong>.<br/><br/>Nous proposons également la livraison via <strong>Mondial Relay</strong>, avec un délai estimé de <strong>3 à 5 jours ouvrables</strong>.</p>"
           }
         }
       },
