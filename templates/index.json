@@ -866,7 +866,7 @@
           "type": "item",
           "settings": {
             "title": "Quel est le temps de livraison ?",
-            "content": "<p>Nos commandes sont expédiées et livrée dans un délai de 2 à 3 jours ouvrables avec Colissimo.</p>"
+            "content": "<p>Nos commandes sont expédiées et livrées sous <strong>2 à 3 jours ouvrables</strong> via <strong>La Poste Colissimo</strong>.<br/><br/>Nous proposons également la livraison via <strong>Mondial Relay</strong>, avec un délai estimé de <strong>3 à 5 jours ouvrables</strong>.</p>"
           }
         }
       },
