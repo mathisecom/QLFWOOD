@@ -571,6 +571,7 @@
       "blocks": {
         "subheading_tgkKby": {
           "type": "subheading",
+          "disabled": true,
           "settings": {
             "text": "NOUVELLE COLLECTION"
           }
