@@ -30,6 +30,13 @@
             "url": ""
           }
         },
+        "message_dbYU3N": {
+          "type": "message",
+          "settings": {
+            "text": "💘 SPÉCIAL SAINT-VALENTIN : T-SHIRT QLF PERSONNALISABLE",
+            "url": ""
+          }
+        },
         "message": {
           "type": "message",
           "settings": {
@@ -48,6 +55,7 @@
       "block_order": [
         "message_9rz9yj",
         "message_EiHgHC",
+        "message_dbYU3N",
         "message",
         "message_DATW7R"
       ],
