@@ -550,6 +550,59 @@
         "product_card_text_color": ""
       }
     },
+    "faq_pHb9gw": {
+      "type": "faq",
+      "blocks": {
+        "item_KCfnHQ": {
+          "type": "item",
+          "settings": {
+            "title": "Expédiez-vous à l'étranger ?",
+            "content": "<p>Oui, nous expédions partout dans le monde. Des frais d'expédition s'appliqueront et seront ajoutés à la caisse. </p>"
+          }
+        },
+        "item_GkM7JN": {
+          "type": "item",
+          "settings": {
+            "title": "Comment Suivre mon colis ?",
+            "content": "<p>Pour suivre votre colis, il vous suffit de vous rendre dans le menu de notre site, puis de cliquer sur <strong>« Suivre votre commande »</strong>. Vous pourrez alors entrer votre numéro de commande pour connaître l’état de votre livraison en temps réel.</p>"
+          }
+        },
+        "item_yzLYnU": {
+          "type": "item",
+          "settings": {
+            "title": "Quel est le temps de livraison ?",
+            "content": "<p>Nos commandes sont expédiées et livrées sous <strong>2 à 3 jours ouvrables</strong> via <strong>La Poste Colissimo</strong>.<br/><br/>Nous proposons également la livraison via <strong>Mondial Relay</strong>, avec un délai estimé de <strong>3 à 5 jours ouvrables</strong>.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_KCfnHQ",
+        "item_GkM7JN",
+        "item_yzLYnU"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Questions Fréquentes",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
     "avisvideo_7hitfY": {
       "type": "avisvideo",
       "blocks": {
@@ -739,6 +792,7 @@
     "rich_text_JGmggi",
     "testimonials_NBAYRX",
     "related-products",
+    "faq_pHb9gw",
     "avisvideo_7hitfY"
   ]
 }
