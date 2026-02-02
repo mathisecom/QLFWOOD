@@ -12,6 +12,12 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "liquid_EQJxgG": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"main-product__block main-product__block-custom_liquid\">\n          <div class=\"m-product-text\">\n            <style> \n  .offer-badge {\n    display: inline-block;\n    padding: 4px 10px; /* Taille réduite */\n    font-size: 12px;  /* Texte plus petit */\n    font-weight: bold;\n    color: white;\n    background: linear-gradient(135deg, #000000, #444444);\n    border-radius: 15px; /* Arrondi adapté */\n    text-transform: uppercase;\n  }\n</style>\n\n<div class=\"offer-badge\">\n  100% PERSONNALISABLE</div>\n          </div>\n        \n</div>"
+          }
+        },
         "title": {
           "type": "title",
           "settings": {
@@ -22,13 +28,6 @@
           "type": "price",
           "settings": {
             "show_taxes_notice": false
-          }
-        },
-        "liquid_EQJxgG": {
-          "type": "liquid",
-          "disabled": true,
-          "settings": {
-            "liquid": "<div class=\"main-product__block main-product__block-custom_liquid\">\n          <div class=\"m-product-text\">\n            <style> \n  .offer-badge {\n    display: inline-block;\n    padding: 4px 10px; /* Taille réduite */\n    font-size: 12px;  /* Texte plus petit */\n    font-weight: bold;\n    color: white;\n    background: linear-gradient(135deg, #000000, #444444);\n    border-radius: 15px; /* Arrondi adapté */\n    text-transform: uppercase;\n  }\n</style>\n\n<div class=\"offer-badge\">\n  STICKERS OFFERT</div>\n          </div>\n        \n</div>"
           }
         },
         "text_3CexBB": {
@@ -61,6 +60,22 @@
             "swatch_selector_style": "swatch",
             "variant_image_options": "",
             "size_chart_page": ""
+          }
+        },
+        "text_LwJ7hR": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Indiquez Vos Initiales : *</p>"
+          }
+        },
+        "line_item_property_aQcPJp": {
+          "type": "line_item_property",
+          "settings": {
+            "label": "Vos Initiales (Ex: M&T)",
+            "type": "text",
+            "required": true,
+            "allow_long_text": false,
+            "max_length": 6
           }
         },
         "bf_size_charts_block_J748fE": {
@@ -135,12 +150,14 @@
         }
       },
       "block_order": [
+        "liquid_EQJxgG",
         "title",
         "price",
-        "liquid_EQJxgG",
         "text_3CexBB",
         "offer_JQd4hr",
         "variant_picker",
+        "text_LwJ7hR",
+        "line_item_property_aQcPJp",
         "bf_size_charts_block_J748fE",
         "quantity_selector",
         "liquid_xgmDkm",
