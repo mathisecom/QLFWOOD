@@ -507,6 +507,40 @@
         "product_card_text_color": ""
       }
     },
+    "rich_text_qkzh8R": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_QbzQqh": {
+          "type": "subheading",
+          "settings": {
+            "text": "T-SHIRT QLF PERSONNALISABLE"
+          }
+        },
+        "heading_e4YcnF": {
+          "type": "heading",
+          "settings": {
+            "text": "SPÉCIAL SAINT-VALENTIN",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_QbzQqh",
+        "heading_e4YcnF"
+      ],
+      "disabled": true,
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "#fff7f9",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "featured_collection_aDUdgK": {
       "type": "featured-collection",
       "disabled": true,
@@ -525,7 +559,7 @@
         "content": "",
         "link_url": "",
         "link_text": "",
-        "background": "",
+        "background": "#fff7f9",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
@@ -1054,6 +1088,7 @@
     "image_link_blocks_NkX9Xq",
     "rich_text_R86P8W",
     "featured_collection_FEqqDa",
+    "rich_text_qkzh8R",
     "featured_collection_aDUdgK",
     "rich_text_g4jke4",
     "featured_collection_WiPwUq",
