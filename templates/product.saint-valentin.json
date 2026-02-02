@@ -65,13 +65,13 @@
         "text_LwJ7hR": {
           "type": "text",
           "settings": {
-            "text": "<p>Indiquez Vos Initiales : *</p>"
+            "text": "<p><strong>Indiquez Vos Initiales</strong> : (Ex: E&T) *</p>"
           }
         },
         "line_item_property_aQcPJp": {
           "type": "line_item_property",
           "settings": {
-            "label": "Vos Initiales (Ex: M&T)",
+            "label": "Vos Initiales",
             "type": "text",
             "required": true,
             "allow_long_text": false,
