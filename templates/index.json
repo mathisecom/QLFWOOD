@@ -15,6 +15,7 @@
         "image_aDfmW8": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/f01fd2e3-f728-4412-a293-ecb471c6d58d.webp",
             "mobile_image": "shopify://shop_images/BANNER_MOBILE_-_2026-07-04T125800.760.webp",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
