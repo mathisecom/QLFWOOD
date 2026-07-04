@@ -15,8 +15,7 @@
         "image_aDfmW8": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PC_QLFWOOD.jpg",
-            "mobile_image": "shopify://shop_images/BANNER_MOBILE_11.jpg",
+            "mobile_image": "shopify://shop_images/BANNER_MOBILE_-_2026-07-04T125800.760.webp",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -38,6 +37,49 @@
       "block_order": [
         "image_aDfmW8"
       ],
+      "name": "Slideshow",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "show_initial_transition": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "slideshow_WzbjbT": {
+      "type": "slideshow",
+      "blocks": {
+        "image_nh3xkT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PC_QLFWOOD.jpg",
+            "mobile_image": "shopify://shop_images/BANNER_MOBILE_11.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_nh3xkT"
+      ],
       "disabled": true,
       "name": "Slideshow",
       "settings": {
@@ -55,6 +97,7 @@
     },
     "video_R4hEmq": {
       "type": "video",
+      "disabled": true,
       "name": "Video",
       "settings": {
         "full_width": true,
@@ -1082,6 +1125,7 @@
   },
   "order": [
     "slideshow_pPBVGz",
+    "slideshow_WzbjbT",
     "video_R4hEmq",
     "rich_text_43d8wa",
     "ss_scrolling_logo_cloud_5_z4EpcM",
