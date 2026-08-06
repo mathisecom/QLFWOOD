@@ -52,6 +52,36 @@
         "background_gradient": ""
       }
     },
+    "productdrop_Kam7VX": {
+      "type": "productdrop",
+      "name": "Nouveau drop + timer",
+      "settings": {
+        "product": "collier-qlf-en-acier-inoxydable",
+        "custom_image": "shopify://shop_images/qlfwood_19_8fbfa9ff-afaa-4c60-b773-e4ce03d57150.jpg",
+        "custom_link": "",
+        "show_product_price": false,
+        "image_fit": "cover",
+        "badge": "Nouveau drop",
+        "eyebrow": "Édition limitée",
+        "heading": "Le prochain drop arrive",
+        "description": "<p>Découvre notre nouvelle pièce en édition limitée. Quantités disponibles jusqu’à épuisement du stock.</p>",
+        "button_label": "Découvrir le produit",
+        "open_new_tab": false,
+        "timer_heading": "Disponible dans",
+        "end_date": "2026-08-07T20:00:00+02:00",
+        "expired_text": "Le drop est disponible !",
+        "hide_button_after_expiry": false,
+        "layout": "image_left",
+        "background_color": "#FFFFFF",
+        "text_color": "#000000",
+        "accent_color": "#000000",
+        "button_text_color": "#ffffff",
+        "content_width": 1400,
+        "border_radius": 20,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
     "slideshow_WzbjbT": {
       "type": "slideshow",
       "blocks": {
@@ -1126,6 +1156,7 @@
   },
   "order": [
     "slideshow_pPBVGz",
+    "productdrop_Kam7VX",
     "slideshow_WzbjbT",
     "video_R4hEmq",
     "rich_text_43d8wa",
