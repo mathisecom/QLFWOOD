@@ -1,0 +1,755 @@
+{% liquid
+  assign selected_product = section.settings.product
+  assign display_image = section.settings.custom_image
+
+  if display_image == blank and selected_product != blank
+    assign display_image = selected_product.featured_image
+  endif
+
+  assign product_link = section.settings.custom_link
+
+  if product_link == blank and selected_product != blank
+    assign product_link = selected_product.url
+  endif
+%}
+
+<section
+  id="ProductDrop-{{ section.id }}"
+  class="product-drop product-drop--{{ section.settings.layout }}"
+  style="
+    --drop-background: {{ section.settings.background_color }};
+    --drop-text: {{ section.settings.text_color }};
+    --drop-accent: {{ section.settings.accent_color }};
+    --drop-button-text: {{ section.settings.button_text_color }};
+    --drop-radius: {{ section.settings.border_radius }}px;
+    --drop-section-width: {{ section.settings.content_width }}px;
+    --drop-padding-top: {{ section.settings.padding_top }}px;
+    --drop-padding-bottom: {{ section.settings.padding_bottom }}px;
+  "
+  data-drop-section
+  data-end-date="{{ section.settings.end_date | escape }}"
+  data-expired-text="{{ section.settings.expired_text | escape }}"
+  data-hide-button="{{ section.settings.hide_button_after_expiry }}"
+>
+  <div class="product-drop__container">
+    <div class="product-drop__media">
+      {% if display_image != blank %}
+        {{
+          display_image
+          | image_url: width: 1600
+          | image_tag:
+            class: 'product-drop__image',
+            widths: '400, 600, 800, 1000, 1200, 1600',
+            sizes: '(min-width: 990px) 50vw, 100vw',
+            loading: 'lazy',
+            alt: display_image.alt
+        }}
+      {% else %}
+        <div class="product-drop__placeholder">
+          {{ 'product-1' | placeholder_svg_tag: 'product-drop__placeholder-svg' }}
+        </div>
+      {% endif %}
+
+      {% if section.settings.badge != blank %}
+        <span class="product-drop__badge">
+          {{ section.settings.badge | escape }}
+        </span>
+      {% endif %}
+    </div>
+
+    <div class="product-drop__content">
+      {% if section.settings.eyebrow != blank %}
+        <p class="product-drop__eyebrow">
+          {{ section.settings.eyebrow | escape }}
+        </p>
+      {% endif %}
+
+      {% if section.settings.heading != blank %}
+        <h2 class="product-drop__heading">
+          {{ section.settings.heading | escape }}
+        </h2>
+      {% elsif selected_product != blank %}
+        <h2 class="product-drop__heading">
+          {{ selected_product.title | escape }}
+        </h2>
+      {% endif %}
+
+      {% if section.settings.description != blank %}
+        <div class="product-drop__description rte">
+          {{ section.settings.description }}
+        </div>
+      {% endif %}
+
+      {% if section.settings.show_product_price and selected_product != blank %}
+        <p class="product-drop__price">
+          {% if selected_product.compare_at_price > selected_product.price %}
+            <span class="product-drop__price-old">
+              {{ selected_product.compare_at_price | money }}
+            </span>
+          {% endif %}
+
+          <span>
+            {{ selected_product.price | money }}
+          </span>
+        </p>
+      {% endif %}
+
+      <div
+        class="product-drop__timer-wrapper"
+        data-timer-wrapper
+        aria-label="Compte à rebours avant le lancement"
+      >
+        {% if section.settings.timer_heading != blank %}
+          <p class="product-drop__timer-heading">
+            {{ section.settings.timer_heading | escape }}
+          </p>
+        {% endif %}
+
+        <div class="product-drop__timer" data-countdown>
+          <div class="product-drop__time-unit">
+            <strong data-days>00</strong>
+            <span>Jours</span>
+          </div>
+
+          <div class="product-drop__time-unit">
+            <strong data-hours>00</strong>
+            <span>Heures</span>
+          </div>
+
+          <div class="product-drop__time-unit">
+            <strong data-minutes>00</strong>
+            <span>Minutes</span>
+          </div>
+
+          <div class="product-drop__time-unit">
+            <strong data-seconds>00</strong>
+            <span>Secondes</span>
+          </div>
+        </div>
+
+        <p
+          class="product-drop__expired"
+          data-expired-message
+          role="status"
+          aria-live="polite"
+          hidden
+        >
+          {{ section.settings.expired_text | escape }}
+        </p>
+
+        <p
+          class="product-drop__date-error"
+          data-date-error
+          role="status"
+          hidden
+        >
+          Vérifie le format de la date dans les réglages de la section.
+        </p>
+      </div>
+
+      {% if product_link != blank and section.settings.button_label != blank %}
+        <a
+          href="{{ product_link }}"
+          class="product-drop__button"
+          data-drop-button
+          {% if section.settings.open_new_tab %}
+            target="_blank"
+            rel="noopener noreferrer"
+          {% endif %}
+        >
+          {{ section.settings.button_label | escape }}
+
+          <svg
+            aria-hidden="true"
+            viewBox="0 0 20 20"
+            width="18"
+            height="18"
+            fill="none"
+          >
+            <path
+              d="M4 10h12M11 5l5 5-5 5"
+              stroke="currentColor"
+              stroke-width="1.8"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </a>
+      {% endif %}
+    </div>
+  </div>
+</section>
+
+<style>
+  #ProductDrop-{{ section.id }} {
+    background: var(--drop-background);
+    color: var(--drop-text);
+    padding-top: var(--drop-padding-top);
+    padding-bottom: var(--drop-padding-bottom);
+  }
+
+  #ProductDrop-{{ section.id }} * {
+    box-sizing: border-box;
+  }
+
+  #ProductDrop-{{ section.id }} .product-drop__container {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    align-items: stretch;
+    width: min(calc(100% - 32px), var(--drop-section-width));
+    margin: 0 auto;
+    overflow: hidden;
+    background: color-mix(in srgb, var(--drop-text) 5%, transparent);
+    border: 1px solid color-mix(in srgb, var(--drop-text) 12%, transparent);
+    border-radius: var(--drop-radius);
+  }
+
+  #ProductDrop-{{ section.id }}.product-drop--image_right .product-drop__media {
+    order: 2;
+  }
+
+  #ProductDrop-{{ section.id }}.product-drop--image_right .product-drop__content {
+    order: 1;
+  }
+
+  #ProductDrop-{{ section.id }} .product-drop__media {
+    position: relative;
+    min-height: 520px;
+    overflow: hidden;
+  }
+
+  #ProductDrop-{{ section.id }} .product-drop__image,
+  #ProductDrop-{{ section.id }} .product-drop__placeholder,
+  #ProductDrop-{{ section.id }} .product-drop__placeholder-svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  #ProductDrop-{{ section.id }} .product-drop__image {
+    object-fit: {{ section.settings.image_fit }};
+    transition: transform 0.6s ease;
+  }
+
+  #ProductDrop-{{ section.id }} .product-drop__container:hover .product-drop__image {
+    transform: scale(1.025);
+  }
+
+  #ProductDrop-{{ section.id }} .product-drop__placeholder {
+    min-height: 520px;
+    background: rgba(127, 127, 127, 0.12);
+  }
+
+  #ProductDrop-{{ section.id }} .product-drop__placeholder-svg {
+    object-fit: cover;
+    opacity: 0.5;
+  }
+
+  #ProductDrop-{{ section.id }} .product-drop__badge {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 9px 14px;
+    color: var(--drop-button-text);
+    background: var(--drop-accent);
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 1;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  #ProductDrop-{{ section.id }} .product-drop__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: clamp(32px, 6vw, 80px);
+  }
+
+  #ProductDrop-{{ section.id }} .product-drop__eyebrow {
+    margin: 0 0 12px;
+    color: var(--drop-accent);
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+  }
+
+  #ProductDrop-{{ section.id }} .product-drop__heading {
+    max-width: 700px;
+    margin: 0;
+    color: inherit;
+    font-size: clamp(36px, 5vw, 72px);
+    line-height: 0.98;
+    letter-spacing: -0.04em;
+  }
+
+  #ProductDrop-{{ section.id }} .product-drop__description {
+    max-width: 620px;
+    margin-top: 24px;
+    font-size: 17px;
+    line-height: 1.65;
+    opacity: 0.82;
+  }
+
+  #ProductDrop-{{ section.id }} .product-drop__description p {
+    margin-top: 0;
+  }
+
+  #ProductDrop-{{ section.id }} .product-drop__description p:last-child {
+    margin-bottom: 0;
+  }
+
+  #ProductDrop-{{ section.id }} .product-drop__price {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin: 22px 0 0;
+    font-size: 22px;
+    font-weight: 800;
+  }
+
+  #ProductDrop-{{ section.id }} .product-drop__price-old {
+    font-size: 17px;
+    font-weight: 500;
+    opacity: 0.55;
+    text-decoration: line-through;
+  }
+
+  #ProductDrop-{{ section.id }} .product-drop__timer-wrapper {
+    margin-top: 32px;
+  }
+
+  #ProductDrop-{{ section.id }} .product-drop__timer-heading {
+    margin: 0 0 12px;
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  #ProductDrop-{{ section.id }} .product-drop__timer {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(64px, 1fr));
+    gap: 10px;
+    max-width: 600px;
+  }
+
+  #ProductDrop-{{ section.id }} .product-drop__time-unit {
+    padding: 18px 10px;
+    text-align: center;
+    background: color-mix(in srgb, var(--drop-text) 8%, transparent);
+    border: 1px solid color-mix(in srgb, var(--drop-text) 14%, transparent);
+    border-radius: calc(var(--drop-radius) * 0.45);
+  }
+
+  #ProductDrop-{{ section.id }} .product-drop__time-unit strong {
+    display: block;
+    color: inherit;
+    font-size: clamp(25px, 4vw, 42px);
+    line-height: 1;
+    font-variant-numeric: tabular-nums;
+  }
+
+  #ProductDrop-{{ section.id }} .product-drop__time-unit span {
+    display: block;
+    margin-top: 8px;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    opacity: 0.65;
+    text-transform: uppercase;
+  }
+
+  #ProductDrop-{{ section.id }} .product-drop__expired,
+  #ProductDrop-{{ section.id }} .product-drop__date-error {
+    margin: 0;
+    color: var(--drop-accent);
+    font-size: 20px;
+    font-weight: 800;
+  }
+
+  #ProductDrop-{{ section.id }} .product-drop__button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-start;
+    gap: 10px;
+    min-height: 54px;
+    margin-top: 30px;
+    padding: 14px 26px;
+    color: var(--drop-button-text);
+    background: var(--drop-accent);
+    border: 2px solid var(--drop-accent);
+    border-radius: 999px;
+    font-size: 15px;
+    font-weight: 800;
+    line-height: 1;
+    text-decoration: none;
+    transition:
+      transform 0.2s ease,
+      box-shadow 0.2s ease,
+      opacity 0.2s ease;
+  }
+
+  #ProductDrop-{{ section.id }} .product-drop__button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 30px color-mix(in srgb, var(--drop-accent) 30%, transparent);
+  }
+
+  #ProductDrop-{{ section.id }} .product-drop__button:focus-visible {
+    outline: 3px solid var(--drop-text);
+    outline-offset: 4px;
+  }
+
+  @media screen and (max-width: 989px) {
+    #ProductDrop-{{ section.id }} .product-drop__container {
+      grid-template-columns: 1fr;
+    }
+
+    #ProductDrop-{{ section.id }}.product-drop--image_right .product-drop__media,
+    #ProductDrop-{{ section.id }}.product-drop--image_right .product-drop__content {
+      order: initial;
+    }
+
+    #ProductDrop-{{ section.id }} .product-drop__media {
+      min-height: auto;
+      aspect-ratio: 4 / 3;
+    }
+
+    #ProductDrop-{{ section.id }} .product-drop__content {
+      padding: 40px 24px;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    #ProductDrop-{{ section.id }} .product-drop__container {
+      width: min(calc(100% - 20px), var(--drop-section-width));
+    }
+
+    #ProductDrop-{{ section.id }} .product-drop__timer {
+      gap: 6px;
+    }
+
+    #ProductDrop-{{ section.id }} .product-drop__time-unit {
+      padding: 14px 4px;
+    }
+
+    #ProductDrop-{{ section.id }} .product-drop__time-unit span {
+      font-size: 8px;
+      letter-spacing: 0;
+    }
+
+    #ProductDrop-{{ section.id }} .product-drop__button {
+      align-self: stretch;
+      width: 100%;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    #ProductDrop-{{ section.id }} .product-drop__image,
+    #ProductDrop-{{ section.id }} .product-drop__button {
+      transition: none;
+    }
+  }
+</style>
+
+<script>
+  (() => {
+    const section = document.getElementById('ProductDrop-{{ section.id }}');
+
+    if (!section || section.dataset.countdownInitialized === 'true') {
+      return;
+    }
+
+    section.dataset.countdownInitialized = 'true';
+
+    const dateValue = section.dataset.endDate;
+    const countdown = section.querySelector('[data-countdown]');
+    const timerWrapper = section.querySelector('[data-timer-wrapper]');
+    const expiredMessage = section.querySelector('[data-expired-message]');
+    const dateError = section.querySelector('[data-date-error]');
+    const button = section.querySelector('[data-drop-button]');
+
+    const daysElement = section.querySelector('[data-days]');
+    const hoursElement = section.querySelector('[data-hours]');
+    const minutesElement = section.querySelector('[data-minutes]');
+    const secondsElement = section.querySelector('[data-seconds]');
+
+    const hideButtonAfterExpiry = section.dataset.hideButton === 'true';
+    const endDate = new Date(dateValue).getTime();
+
+    const formatNumber = (number) => {
+      return String(Math.max(0, number)).padStart(2, '0');
+    };
+
+    const showDateError = () => {
+      if (countdown) countdown.hidden = true;
+      if (expiredMessage) expiredMessage.hidden = true;
+      if (dateError) dateError.hidden = false;
+    };
+
+    if (!dateValue || Number.isNaN(endDate)) {
+      showDateError();
+      return;
+    }
+
+    let intervalId;
+
+    const updateTimer = () => {
+      const remainingTime = endDate - Date.now();
+
+      if (remainingTime <= 0) {
+        clearInterval(intervalId);
+
+        daysElement.textContent = '00';
+        hoursElement.textContent = '00';
+        minutesElement.textContent = '00';
+        secondsElement.textContent = '00';
+
+        if (countdown) countdown.hidden = true;
+        if (expiredMessage) expiredMessage.hidden = false;
+
+        if (hideButtonAfterExpiry && button) {
+          button.hidden = true;
+        }
+
+        timerWrapper?.setAttribute('aria-label', 'Le lancement est disponible');
+        return;
+      }
+
+      const days = Math.floor(remainingTime / 86400000);
+      const hours = Math.floor((remainingTime % 86400000) / 3600000);
+      const minutes = Math.floor((remainingTime % 3600000) / 60000);
+      const seconds = Math.floor((remainingTime % 60000) / 1000);
+
+      daysElement.textContent = formatNumber(days);
+      hoursElement.textContent = formatNumber(hours);
+      minutesElement.textContent = formatNumber(minutes);
+      secondsElement.textContent = formatNumber(seconds);
+    };
+
+    updateTimer();
+    intervalId = window.setInterval(updateTimer, 1000);
+
+    document.addEventListener(
+      'shopify:section:unload',
+      (event) => {
+        if (event.detail.sectionId === '{{ section.id }}') {
+          clearInterval(intervalId);
+        }
+      },
+      { once: true }
+    );
+  })();
+</script>
+
+{% schema %}
+{
+  "name": "Nouveau drop + timer",
+  "tag": "section",
+  "class": "section-product-drop",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Produit"
+    },
+    {
+      "type": "product",
+      "id": "product",
+      "label": "Produit du drop"
+    },
+    {
+      "type": "image_picker",
+      "id": "custom_image",
+      "label": "Image personnalisée",
+      "info": "Laisse vide pour utiliser l’image principale du produit."
+    },
+    {
+      "type": "url",
+      "id": "custom_link",
+      "label": "Lien personnalisé",
+      "info": "Laisse vide pour utiliser automatiquement la fiche produit."
+    },
+    {
+      "type": "checkbox",
+      "id": "show_product_price",
+      "label": "Afficher le prix",
+      "default": true
+    },
+    {
+      "type": "select",
+      "id": "image_fit",
+      "label": "Affichage de l’image",
+      "default": "cover",
+      "options": [
+        {
+          "value": "cover",
+          "label": "Remplir la zone"
+        },
+        {
+          "value": "contain",
+          "label": "Afficher l’image entière"
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "content": "Contenu"
+    },
+    {
+      "type": "text",
+      "id": "badge",
+      "label": "Badge",
+      "default": "Nouveau drop"
+    },
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "Petit titre",
+      "default": "Édition limitée"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Titre",
+      "default": "Le prochain drop arrive"
+    },
+    {
+      "type": "richtext",
+      "id": "description",
+      "label": "Description",
+      "default": "<p>Découvre notre nouvelle pièce en édition limitée. Quantités disponibles jusqu’à épuisement du stock.</p>"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Texte du bouton",
+      "default": "Découvrir le produit"
+    },
+    {
+      "type": "checkbox",
+      "id": "open_new_tab",
+      "label": "Ouvrir le lien dans un nouvel onglet",
+      "default": false
+    },
+    {
+      "type": "header",
+      "content": "Compte à rebours"
+    },
+    {
+      "type": "text",
+      "id": "timer_heading",
+      "label": "Texte au-dessus du timer",
+      "default": "Disponible dans"
+    },
+    {
+      "type": "text",
+      "id": "end_date",
+      "label": "Date et heure du lancement",
+      "default": "2026-12-01T18:00:00+01:00",
+      "info": "Format conseillé : AAAA-MM-JJTHH:MM:SS+01:00. Exemple été : 2026-08-30T18:00:00+02:00."
+    },
+    {
+      "type": "text",
+      "id": "expired_text",
+      "label": "Message après la fin du timer",
+      "default": "Le drop est disponible !"
+    },
+    {
+      "type": "checkbox",
+      "id": "hide_button_after_expiry",
+      "label": "Masquer le bouton après la fin",
+      "default": false
+    },
+    {
+      "type": "header",
+      "content": "Design"
+    },
+    {
+      "type": "select",
+      "id": "layout",
+      "label": "Position de l’image",
+      "default": "image_left",
+      "options": [
+        {
+          "value": "image_left",
+          "label": "Image à gauche"
+        },
+        {
+          "value": "image_right",
+          "label": "Image à droite"
+        }
+      ]
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Couleur de fond",
+      "default": "#111111"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Couleur du texte",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "accent_color",
+      "label": "Couleur d’accentuation",
+      "default": "#ff4d00"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "label": "Couleur du texte du bouton",
+      "default": "#ffffff"
+    },
+    {
+      "type": "range",
+      "id": "content_width",
+      "min": 900,
+      "max": 1800,
+      "step": 50,
+      "unit": "px",
+      "label": "Largeur maximale",
+      "default": 1400
+    },
+    {
+      "type": "range",
+      "id": "border_radius",
+      "min": 0,
+      "max": 50,
+      "step": 2,
+      "unit": "px",
+      "label": "Arrondi des angles",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 160,
+      "step": 4,
+      "unit": "px",
+      "label": "Marge supérieure",
+      "default": 60
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 160,
+      "step": 4,
+      "unit": "px",
+      "label": "Marge inférieure",
+      "default": 60
+    }
+  ],
+  "presets": [
+    {
+      "name": "Nouveau drop + timer"
+    }
+  ]
+}
+{% endschema %}
