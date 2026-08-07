@@ -112,12 +112,11 @@
         },
         "collapsible_text_xQXt4d": {
           "type": "collapsible_text",
-          "disabled": true,
           "settings": {
-            "icon": "picto-recycle",
+            "icon": "picto-jewelry",
             "icon_width": 20,
-            "title": "Lavage & Entretien",
-            "content": "<p><strong>- </strong>Lavage 30°<br/><strong>- </strong>Pas de sèche-linge<br/><strong>- </strong>Repassage à l'envers</p>",
+            "title": "Caractéristiques",
+            "content": "<p>- <strong>Matériau :</strong> Acier inoxydable</p><p>- <strong>Taille :</strong> 45cm</p><p>- <strong>Matériau pendentif :</strong> acier inoxydable</p>",
             "page": ""
           }
         },
