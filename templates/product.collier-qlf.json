@@ -112,6 +112,7 @@
         },
         "collapsible_text_xQXt4d": {
           "type": "collapsible_text",
+          "disabled": true,
           "settings": {
             "icon": "picto-recycle",
             "icon_width": 20,
