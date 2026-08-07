@@ -623,19 +623,19 @@
             "modal_text": ""
           }
         },
-        "video_TqnbY4": {
+        "video_VdgcPB": {
           "type": "video",
           "settings": {
-            "video": "shopify://files/videos/WhatsApp Video 2026-08-07 at 18.41.11.mp4",
+            "video": "shopify://files/videos/WhatsApp Video 2026-08-07 at 18.38.02.mp4",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "modal_heading": "",
             "modal_text": ""
           }
         },
-        "video_VdgcPB": {
+        "video_TqnbY4": {
           "type": "video",
           "settings": {
-            "video": "shopify://files/videos/WhatsApp Video 2026-08-07 at 18.38.02.mp4",
+            "video": "shopify://files/videos/WhatsApp Video 2026-08-07 at 18.41.11.mp4",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "modal_heading": "",
             "modal_text": ""
@@ -653,15 +653,15 @@
       },
       "block_order": [
         "video_kPfBdE",
-        "video_TqnbY4",
         "video_VdgcPB",
+        "video_TqnbY4",
         "video_4M4U9T"
       ],
       "name": "Customify - Product Videos",
       "settings": {
         "videos_position": "above_description",
         "use_metafield": false,
-        "heading": "",
+        "heading": "<p>VOYEZ LE PRODUIT EN ACTION</p>",
         "heading_custom": false,
         "heading_font": "josefin_sans_n4",
         "heading_size": 14,
@@ -679,7 +679,7 @@
         "card_shadow": true,
         "video_ratio": "portrait",
         "video_ratio_mobile": "original",
-        "video_overlay": 0.3,
+        "video_overlay": 0.1,
         "icon_size": 34,
         "icon_size_mobile": 34,
         "icon_border_thickness": 1,
