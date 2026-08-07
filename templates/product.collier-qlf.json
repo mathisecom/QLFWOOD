@@ -617,52 +617,34 @@
         "video_kPfBdE": {
           "type": "video",
           "settings": {
-            "video": "shopify://files/videos/ssstik.io_@qlfwood_1764719501279.mp4",
+            "video": "shopify://files/videos/WhatsApp Video 2026-08-07 at 18.41.11 (1).mp4",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "modal_heading": "",
             "modal_text": ""
           }
         },
-        "video_aUtwka": {
+        "video_TqnbY4": {
           "type": "video",
           "settings": {
-            "video": "shopify://files/videos/ssstik.io_@qlfwood_1764719941535.mp4",
+            "video": "shopify://files/videos/WhatsApp Video 2026-08-07 at 18.41.11.mp4",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "modal_heading": "",
             "modal_text": ""
           }
         },
-        "video_BFGUHp": {
+        "video_VdgcPB": {
           "type": "video",
           "settings": {
-            "video": "shopify://files/videos/ssstik.io_@qlfwood_1764719548112.mp4",
+            "video": "shopify://files/videos/WhatsApp Video 2026-08-07 at 18.38.02.mp4",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "modal_heading": "",
             "modal_text": ""
           }
         },
-        "video_FgyqCd": {
+        "video_4M4U9T": {
           "type": "video",
           "settings": {
-            "video": "shopify://files/videos/ssstik.io_@qlfwood_1764719657373.mp4",
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "modal_heading": "",
-            "modal_text": ""
-          }
-        },
-        "video_fn8KfU": {
-          "type": "video",
-          "settings": {
-            "video": "shopify://files/videos/ssstik.io_@qlfwood_1764719741608_209e0153-d263-4745-94ea-49f38c6ace65.mp4",
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "modal_heading": "",
-            "modal_text": ""
-          }
-        },
-        "video_CVjbWA": {
-          "type": "video",
-          "settings": {
-            "video": "shopify://files/videos/ssstik.io_@qlfwood_1764719890544.mp4",
+            "video": "shopify://files/videos/WhatsApp Video 2026-08-07 at 18.41.12.mp4",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "modal_heading": "",
             "modal_text": ""
@@ -671,17 +653,15 @@
       },
       "block_order": [
         "video_kPfBdE",
-        "video_aUtwka",
-        "video_BFGUHp",
-        "video_FgyqCd",
-        "video_fn8KfU",
-        "video_CVjbWA"
+        "video_TqnbY4",
+        "video_VdgcPB",
+        "video_4M4U9T"
       ],
       "name": "Customify - Product Videos",
       "settings": {
         "videos_position": "above_description",
         "use_metafield": false,
-        "heading": "<h2><strong>NOS VIDÉOS QLFWOOD</strong></h2>",
+        "heading": "",
         "heading_custom": false,
         "heading_font": "josefin_sans_n4",
         "heading_size": 14,
