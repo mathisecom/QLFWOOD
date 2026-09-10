@@ -54,6 +54,7 @@
     },
     "productdrop_Kam7VX": {
       "type": "productdrop",
+      "disabled": true,
       "name": "Nouveau drop + timer",
       "settings": {
         "product": "collier-qlf-en-acier-inoxydable",
