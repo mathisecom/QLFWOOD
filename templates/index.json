@@ -286,6 +286,65 @@
         "lazy": true
       }
     },
+    "rich_text_P333fM": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_Ndp6QU": {
+          "type": "subheading",
+          "settings": {
+            "text": "NOUVEAUTÉS !"
+          }
+        },
+        "heading_azH7ab": {
+          "type": "heading",
+          "settings": {
+            "text": "T-SHIRT MANCHE LONGUE",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_Ndp6QU",
+        "heading_azH7ab"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "featured_collection_96A8gj": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "collection": "manche-longue",
+        "products": [],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 4,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
     "rich_text_PjpraE": {
       "type": "rich-text",
       "blocks": {
@@ -1177,6 +1236,8 @@
     "video_R4hEmq",
     "rich_text_43d8wa",
     "ss_scrolling_logo_cloud_5_z4EpcM",
+    "rich_text_P333fM",
+    "featured_collection_96A8gj",
     "rich_text_PjpraE",
     "featured_collection_LbPaqW",
     "ss_scrolling_images_V6zXt8",
