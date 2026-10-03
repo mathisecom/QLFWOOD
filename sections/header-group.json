@@ -30,6 +30,13 @@
             "url": ""
           }
         },
+        "message_QfFkxF": {
+          "type": "message",
+          "settings": {
+            "text": "OFFRE AUTOMNE LIMITÉE · JUSQU'AU 11/10",
+            "url": ""
+          }
+        },
         "message": {
           "type": "message",
           "settings": {
@@ -48,6 +55,7 @@
       "block_order": [
         "message_9rz9yj",
         "message_EiHgHC",
+        "message_QfFkxF",
         "message",
         "message_DATW7R"
       ],
