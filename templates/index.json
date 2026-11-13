@@ -54,6 +54,7 @@
     },
     "custom_liquid_nTQBPY": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "Custom Liquid",
       "settings": {
         "full_width": true,
@@ -67,10 +68,9 @@
     },
     "productdrop_Kam7VX": {
       "type": "productdrop",
-      "disabled": true,
       "name": "Nouveau drop + timer",
       "settings": {
-        "product": "collier-qlf-en-acier-inoxydable",
+        "product": "bracelet-que-la-famille-en-acier-inoxydable",
         "custom_image": "shopify://shop_images/LeseulrouleauapeluchesdontvousaureztoujoursbesoinL_efficacitedel_eliminationdespeluchess_alliealadurabiliteetaustyle.Iln_yatoutsimplementpasderouleauapeluchescomme_8_1_b0af4bfc-a615-4533-a7c7-18a9a0796865.jpg",
         "custom_link": "",
         "show_product_price": false,
@@ -87,7 +87,7 @@
         "hide_button_after_expiry": false,
         "layout": "image_left",
         "eyebrow_size": 13,
-        "heading_size": 28,
+        "heading_size": 26,
         "description_size": 17,
         "price_size": 22,
         "timer_heading_size": 14,
