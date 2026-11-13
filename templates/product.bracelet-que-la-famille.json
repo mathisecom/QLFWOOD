@@ -60,7 +60,7 @@
           "type": "inventory",
           "disabled": true,
           "settings": {
-            "low_inventory_threshold": 34
+            "low_inventory_threshold": 10
           }
         },
         "text_Vm6r3H": {
