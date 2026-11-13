@@ -20,6 +20,7 @@
         },
         "price": {
           "type": "price",
+          "disabled": true,
           "settings": {
             "show_taxes_notice": false
           }
@@ -52,14 +53,15 @@
             "text_color": "#1a1a1a"
           }
         },
-        "moon_bundles_app_block_WYa7nQ": {
-          "type": "shopify://apps/moon-bundles/blocks/app-block/aaf4cd95-8b9b-4a14-b929-0f7fc8fced27",
+        "liquid_EF4XL4": {
+          "type": "liquid",
           "settings": {
-            "moonbundle_selected_product": "{{product}}"
+            "liquid": ""
           }
         },
         "variant_picker": {
           "type": "variant_picker",
+          "disabled": true,
           "settings": {
             "hide_sold_out_variants": false,
             "stack_blocks": false,
@@ -82,6 +84,7 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
+          "disabled": true,
           "settings": {}
         },
         "liquid_xgmDkm": {
@@ -153,7 +156,7 @@
         "liquid_EQJxgG",
         "text_3CexBB",
         "offer_JQd4hr",
-        "moon_bundles_app_block_WYa7nQ",
+        "liquid_EF4XL4",
         "variant_picker",
         "liquid_HWjgVn",
         "bf_size_charts_block_J748fE",
