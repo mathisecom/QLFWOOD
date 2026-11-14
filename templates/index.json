@@ -52,6 +52,67 @@
         "background_gradient": ""
       }
     },
+    "rich_text_qkzh8R": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_QbzQqh": {
+          "type": "subheading",
+          "settings": {
+            "text": "PLUS QUE QUELQUES PIÈCES DISPONIBLES !"
+          }
+        },
+        "heading_e4YcnF": {
+          "type": "heading",
+          "settings": {
+            "text": "BRACELET \"QUE LA FAMILLE\" DE RETOUR",
+            "heading_tag": "h6",
+            "text_color": "#000000",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_QbzQqh",
+        "heading_e4YcnF"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "#FFFFFF",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "featured_collection_aDUdgK": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "collection": "",
+        "products": [
+          "bracelet-que-la-famille-en-acier-inoxydable"
+        ],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 2,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 2,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "#FFFFFF",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
     "custom_liquid_nTQBPY": {
       "type": "custom-liquid",
       "disabled": true,
@@ -68,6 +129,7 @@
     },
     "productdrop_Kam7VX": {
       "type": "productdrop",
+      "disabled": true,
       "name": "Nouveau drop + timer",
       "settings": {
         "product": "bracelet-que-la-famille-en-acier-inoxydable",
@@ -724,67 +786,6 @@
         "product_card_text_color": ""
       }
     },
-    "rich_text_qkzh8R": {
-      "type": "rich-text",
-      "blocks": {
-        "subheading_QbzQqh": {
-          "type": "subheading",
-          "settings": {
-            "text": "T-SHIRT QLF PERSONNALISABLE"
-          }
-        },
-        "heading_e4YcnF": {
-          "type": "heading",
-          "settings": {
-            "text": "SPÉCIAL SAINT-VALENTIN",
-            "heading_tag": "h3",
-            "text_color": "#a6053b",
-            "gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "subheading_QbzQqh",
-        "heading_e4YcnF"
-      ],
-      "disabled": true,
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "#fff7f9",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "featured_collection_aDUdgK": {
-      "type": "featured-collection",
-      "disabled": true,
-      "name": "Featured collection",
-      "settings": {
-        "collection": "saint-valentin",
-        "products": [],
-        "full_width": true,
-        "stack_products": true,
-        "show_progress_bar": false,
-        "products_count": 2,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 2,
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "link_url": "",
-        "link_text": "",
-        "background": "#fff7f9",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
-      }
-    },
     "rich_text_g4jke4": {
       "type": "rich-text",
       "blocks": {
@@ -1244,6 +1245,8 @@
   },
   "order": [
     "slideshow_pPBVGz",
+    "rich_text_qkzh8R",
+    "featured_collection_aDUdgK",
     "custom_liquid_nTQBPY",
     "productdrop_Kam7VX",
     "slideshow_WzbjbT",
@@ -1258,8 +1261,6 @@
     "image_link_blocks_NkX9Xq",
     "rich_text_R86P8W",
     "featured_collection_FEqqDa",
-    "rich_text_qkzh8R",
-    "featured_collection_aDUdgK",
     "rich_text_g4jke4",
     "featured_collection_WiPwUq",
     "custom_liquid_pbzaAX",
