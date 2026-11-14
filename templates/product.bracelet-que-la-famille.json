@@ -58,9 +58,8 @@
         },
         "inventory_AtmxYQ": {
           "type": "inventory",
-          "disabled": true,
           "settings": {
-            "low_inventory_threshold": 10
+            "low_inventory_threshold": 37
           }
         },
         "text_Vm6r3H": {
